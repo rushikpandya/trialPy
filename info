@@ -1,0 +1,30 @@
+my_name = "Rushik"
+my_age = "29" 
+my_height = "72" #inches
+my_weight = "200" #pounds
+my_profession = "Software Engineer"
+my_location = "Ahmedabad"
+my_nationality = "Indian"
+my_hobby = "Hiking"
+
+
+
+print(f"Lets talk about {my_name}!")
+print(f"He is {my_age} years old.")
+print(f"He is {my_height} inches tall.")
+print(f"He likes to {my_hobby}.")
+print(f"He works as {my_profession} in {my_location} city and holds {my_nationality} nationality.")
+
+total = my_age + my_height + my_weight
+print (f"If I add {my_age}, {my_height}, and {my_weight}. I get {total}.")
+
+
+d_ft = int(input("Input distance in feet: "))
+d_inches = d_ft * 12
+d_yards = d_ft / 3.0
+d_cm = d_ft * 30.48 
+
+print("The distance in inches is %i inches." %d_inches)
+print("The distance in yards is %.2f yards." %d_yards)
+print("The distance in centimeter is %.2f centimeter." %d_cm)
+
