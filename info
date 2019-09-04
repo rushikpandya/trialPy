@@ -6,7 +6,7 @@ my_profession = "Software Engineer"
 my_location = "Ahmedabad"
 my_nationality = "Indian"
 my_hobby = "Hiking"
-
+my_team="Blue"
 
 
 print(f"Lets talk about {my_name}!")
@@ -14,6 +14,7 @@ print(f"He is {my_age} years old.")
 print(f"He is {my_height} inches tall.")
 print(f"He likes to {my_hobby}.")
 print(f"He works as {my_profession} in {my_location} city and holds {my_nationality} nationality.")
+print(f"His favorite team is my_team.")
 
 total = my_age + my_height + my_weight
 print (f"If I add {my_age}, {my_height}, and {my_weight}. I get {total}.")
